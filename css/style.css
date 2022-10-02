@@ -8,27 +8,30 @@ section {
 .nav-img img {
   width: 140px;
 }
+.nav-item a:hover {
+  color: #a0583c;
+  background-color: #ffffff;
+}
 .nav-link {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   font-size: 20px;
   transition: all 0.2s;
   border-radius: 5px;
   padding: 3px 6px;
   color: white;
 }
-.nav-item a:hover {
-  color: #a0583c;
-  background-color: #ffffff;
+.contenido {
+  font-family: "Inter";
 }
 .contenido h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins";
   color: rgb(248, 234, 207);
-  font-size: 35px;
+  font-size: 38px;
   margin-bottom: 4%;
   margin-top: 3%;
 }
 .contenido p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
 }
 .contenido2 h2 {
   font-family: "Poppins";
@@ -78,11 +81,30 @@ section {
   font-family: "Poppins";
   font-size: 22px;
 }
-/* .contenido-historia img {
-    width: 70%;
-} */
-.contenido {
-  font-family: "Inter";
+.footer-der-redes {
+  margin-bottom: 1rem;
+}
+.tienda {
+  height: 30vh;
+}
+.tienda-titulo h1 {
+  font-family: "Poppins";
+  font-size: 38px;
+}
+.tienda-subtitulo p {
+  color: #c0aa83;
+  font-family: "Poppins";
+  font-size: 25px;
+}
+.tienda-secciones h2 {
+  font-family: "Poppins";
+  color: #5a6473;
+  font-size: 25px;
+}
+.tienda-secciones p {
+  color: #5a6473;
+  font-family: "Montserrat";
+  font-size: 16px;
 }
 @media (min-width: 768px) {
   .contenido h1 {
@@ -93,6 +115,14 @@ section {
   }
   .contenido2-contenedor {
     width: 65%;
+  }
+  .tienda-subtitulo {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .tienda-secciones {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 @media (min-width: 992px) {
@@ -106,9 +136,9 @@ section {
     padding-top: 0.8rem;
     width: 50%;
     display: grid;
-    grid-template-areas: 
-    "titulo"
-    "logos";
+    grid-template-areas:
+      "titulo"
+      "logos";
     grid-template-rows: 0.5fr 1fr;
   }
   .footer-der h2 {
