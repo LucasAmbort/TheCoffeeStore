@@ -54,6 +54,10 @@ section {
   box-shadow: 6px 12px 13px -3px rgba(125, 125, 125, 0.69);
   -webkit-box-shadow: 6px 12px 13px -3px rgba(125, 125, 125, 0.69);
   -moz-box-shadow: 6px 12px 13px -3px rgba(125, 125, 125, 0.69);
+  transition: all 0.1s;
+}
+.card:hover {
+  transform: scale(1.04);
 }
 .card img {
   border-radius: 20px;
@@ -128,6 +132,7 @@ section {
   width: 85%;
   border-radius: 5px;
   margin-bottom: 20px;
+  transition: all 0.1s;
 }
 .nosotros {
   height: 30vh;
@@ -181,7 +186,7 @@ section {
     width: 60%;
   }
   .contenido2-contenedor {
-    width: 65%;
+    width: 80%;
   }
   .tienda-subtitulo {
     padding-left: 30px;
@@ -195,6 +200,9 @@ section {
 @media (min-width: 992px) {
   .contenido-historia-img img {
     width: 50%;
+  }
+  .contenido2-contenedor {
+    width: 70%;
   }
   .footer-izq {
     width: 50%;
