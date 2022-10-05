@@ -1,0 +1,282 @@
+/* Inicio estilo generale */
+section {
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+/* Fin estilo generale */
+/* Inicio estilo header */
+.nav-img {
+  img {
+    width: 140px;
+  }
+}
+.nav-item a:hover {
+  color: #a0583c;
+  background-color: #ffffff;
+}
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 20px;
+  transition: all 0.2s;
+  border-radius: 5px;
+  padding: 3px 6px;
+  color: white;
+}
+/* Fin estilo header */
+/* Inicio estilo inicio */
+.contenido {
+  font-family: "Inter";
+  h1 {
+    font-family: "Poppins";
+    color: rgb(248, 234, 207);
+    font-size: 38px;
+    margin-bottom: 4%;
+    margin-top: 3%;
+  }
+  p {
+    font-family: "Montserrat";
+  }
+}
+.contenido2 h2 {
+  font-family: "Poppins";
+  color: #a0583c;
+  font-size: 1.5rem;
+}
+.contenido-historia {
+  h3 {
+    font-family: "Inter";
+  }
+  p {
+    font-family: "Inter";
+  }
+}
+
+.contenido3 h2 {
+  font-family: "Poppins";
+  color: #a0583c;
+  font-size: 1.5rem;
+}
+.card {
+  background-color: #c08267;
+  color: white;
+  border-radius: 15px;
+  border: 0;
+  box-shadow: 6px 12px 13px -3px rgba(125, 125, 125, 0.69);
+  -webkit-box-shadow: 6px 12px 13px -3px rgba(125, 125, 125, 0.69);
+  -moz-box-shadow: 6px 12px 13px -3px rgba(125, 125, 125, 0.69);
+  transition: all 0.1s;
+  img {
+    border-radius: 20px;
+  }
+  h3 {
+    font-family: "Poppins";
+    font-size: 23px;
+  }
+  p {
+    font-family: "Montserrat";
+    font-size: 15px;
+  }
+  &:hover {
+    transform: scale(1.04);
+  }
+}
+.contenido4 h2 {
+  font-family: "Poppins";
+  color: #a0583c;
+  font-size: 1.5rem;
+}
+/* Fin estilo inicio */
+/* Inicio estilo footer */
+.footer {
+  background-color: #c08267;
+  &-izq {
+    width: 100%;
+    p {
+      font-family: "Inter";
+    }
+  }
+  &-der {
+    h2 {
+      font-family: "Poppins";
+      font-size: 22px;
+    }
+    &-redes {
+      margin-bottom: 1rem;
+    }
+  }
+}
+/* Fin estilo footer */
+/* Inicio estilo tienda */
+.tienda {
+  height: 30vh;
+  &-titulo {
+    h1 {
+      font-family: "Poppins";
+      font-size: 38px;
+    }
+  }
+  &-subtitulo {
+    p {
+      color: #c0aa83;
+      font-family: "Inter";
+      font-size: 25px;
+    }
+  }
+  &-secciones {
+    display: flex;
+    text-align: center;
+    img {
+      display: flex;
+      margin: 0 auto;
+    }
+    h2 {
+      font-family: "Poppins";
+      color: #5a6473;
+      font-size: 25px;
+    }
+    p {
+      color: #5a6473;
+      font-family: "Montserrat";
+      font-size: 16px;
+    }
+  }
+}
+/* Fin estilo tienda */
+/* Inicio estilo galeria */
+.galeria {
+  height: 30vh;
+  &-titulo {
+    h1 {
+      font-family: "Poppins";
+      font-size: 38px;
+    }
+  }
+  &-contenedor {
+    img {
+      width: 85%;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      transition: all 0.1s;
+    }
+  }
+}
+/* Fin estilo galeria */
+/* Inicio estilo nosotros */
+.nosotros {
+  height: 30vh;
+  &-row {
+    width: 90%;
+    img {
+      border-radius: 5px;
+    }
+    h2 {
+      font-family: "Inter";
+      font-weight: 700;
+      color: #5a6473;
+      font-size: 1.7rem;
+    }
+    p {
+      font-family: "Inter";
+      font-weight: 400;
+      color: #5a6473;
+    }
+    h3 {
+      font-family: "Inter";
+      font-weight: 700;
+      color: #5a6473;
+      font-size: 1.4rem;
+    }
+  }
+}
+/* Fin estilo nosotros */
+/* Inicio estilo contacto */
+.contacto {
+  height: 30vh;
+  &-contenedor {
+    p {
+      font-family: "Montserrat";
+      font-size: 1.2rem;
+    }
+    form {
+      font-family: "Montserrat";
+      font-size: 1rem;
+    }
+  }
+}
+.btn {
+  background-color: #c08267;
+  font-family: "Poppins";
+}
+.boton:hover {
+  background-color: #c08267 !important;
+}
+/* Fin estilo contacto */
+@media (min-width: 768px) {
+  .contenido {
+    h1 {
+      font-size: 50px;
+    }
+    &-historia-img {
+      img {
+        width: 60%;
+      }
+    }
+    &2-contenedor {
+      width: 80%;
+    }
+  }
+  .tienda-subtitulo {
+    padding-left: 30px;
+    padding-right: 30px;
+    &-secciones {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+}
+@media (min-width: 992px) {
+  .contenido-historia-img {
+    img {
+      width: 50%;
+    }
+  }
+  .contenido2-contenedor {
+    width: 70%;
+  }
+  .footer-izq {
+    width: 50%;
+  }
+  .footer-der {
+    padding-top: 0.8rem;
+    width: 50%;
+    display: grid;
+    grid-template-areas:
+      "titulo"
+      "logos";
+    grid-template-rows: 0.5fr 1fr;
+    h2 {
+      grid-area: titulo;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      display: flex;
+      justify-content: end;
+    }
+    &-redes {
+      grid-area: logos;
+      display: flex;
+      justify-content: end;
+    }
+  }
+  .galeria-contenedor img:hover {
+    transform: scale(1.04);
+  }
+  .nosotros-contenedor {
+    img {
+      width: 80%;
+    }
+  }
+}
