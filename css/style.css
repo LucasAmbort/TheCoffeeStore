@@ -127,7 +127,51 @@ section {
 .galeria-contenedor img {
   width: 85%;
   border-radius: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+}
+.nosotros {
+  height: 30vh;
+}
+.nosotros-row {
+  width: 90%;
+}
+.nosotros-row img {
+  border-radius: 5px;
+}
+.nosotros-row h2 {
+  font-family: "Inter";
+  font-weight: 700;
+  color: #5a6473;
+  font-size: 1.7rem;
+}
+.nosotros-row p {
+  font-family: "Inter";
+  font-weight: 400;
+  color: #5a6473;
+}
+.nosotros-row h3 {
+  font-family: "Inter";
+  font-weight: 700;
+  color: #5a6473;
+  font-size: 1.4rem;
+}
+.contacto {
+  height: 30vh;
+}
+.contacto-contenedor p {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+.contacto-contenedor form {
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+.btn {
+  background-color: #c08267;
+  font-family: "Poppins";
+}
+.boton:hover {
+  background-color: #c08267!important;
 }
 @media (min-width: 768px) {
   .contenido h1 {
@@ -179,5 +223,8 @@ section {
   }
   .galeria-contenedor img:hover {
     transform: scale(1.04);
+  }
+  .nosotros-contenedor img {
+    width: 80%;
   }
 }
