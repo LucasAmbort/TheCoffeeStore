@@ -1,0 +1,35 @@
+/* Inicio estilo nosotros */
+.nosotros {
+  height: 40vh;
+  &-row {
+    width: 90%;
+    img {
+      border-radius: 5px;
+    }
+    h2 {
+      font-family: "Inter";
+      font-weight: 700;
+      color: #5a6473;
+      font-size: 1.7rem;
+    }
+    p {
+      font-family: "Inter";
+      font-weight: 400;
+      color: #5a6473;
+    }
+    h3 {
+      font-family: "Inter";
+      font-weight: 700;
+      color: #5a6473;
+      font-size: 1.4rem;
+    }
+  }
+}
+/* Fin estilo nosotros */
+@media (min-width: 992px) {
+  .nosotros-contenedor {
+    img {
+      width: 80%;
+    }
+  }
+}

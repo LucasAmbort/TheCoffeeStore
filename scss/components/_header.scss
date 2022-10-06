@@ -1,0 +1,19 @@
+/* Inicio estilo header */
+.nav-img {
+    img {
+      width: 140px;
+    }
+  }
+  .nav-item a:hover {
+    color: #a0583c;
+    background-color: #ffffff;
+  }
+  .nav-link {
+    font-family: "Montserrat";
+    font-size: 20px;
+    transition: all 0.2s;
+    border-radius: 5px;
+    padding: 3px 6px;
+    color: white;
+  }
+  /* Fin estilo header */

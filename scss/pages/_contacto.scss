@@ -1,0 +1,22 @@
+/* Inicio estilo contacto */
+.contacto {
+    height: 40vh;
+    &-contenedor {
+      p {
+        font-family: "Montserrat";
+        font-size: 1.2rem;
+      }
+      form {
+        font-family: "Montserrat";
+        font-size: 1rem;
+      }
+    }
+  }
+  .btn {
+    background-color: #c08267;
+    font-family: "Poppins";
+  }
+  .boton:hover {
+    background-color: #ca663b !important;
+  }
+  /* Fin estilo contacto */

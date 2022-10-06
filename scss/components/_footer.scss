@@ -1,0 +1,47 @@
+/* Inicio estilo footer */
+.footer {
+  background-color: #c08267;
+  &-izq {
+    width: 100%;
+    p {
+      font-family: "Inter";
+    }
+  }
+  &-der {
+    h2 {
+      font-family: "Poppins";
+      font-size: 22px;
+    }
+    &-redes {
+      margin-bottom: 1rem;
+    }
+  }
+}
+/* Fin estilo footer */
+@media (min-width: 992px) {
+  .footer-izq {
+    width: 50%;
+  }
+  .footer-der {
+    padding-top: 0.8rem;
+    width: 50%;
+    display: grid;
+    grid-template-areas:
+      "titulo"
+      "logos";
+    grid-template-rows: 0.5fr 1fr;
+    h2 {
+      grid-area: titulo;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      display: flex;
+      justify-content: end;
+    }
+    &-redes {
+      grid-area: logos;
+      display: flex;
+      justify-content: end;
+    }
+  }
+}

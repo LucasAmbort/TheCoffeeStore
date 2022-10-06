@@ -1,0 +1,24 @@
+/* Inicio estilo galeria */
+.galeria {
+  height: 40vh;
+  &-titulo {
+    h1 {
+      font-family: "Poppins";
+      font-size: 38px;
+    }
+  }
+  &-contenedor {
+    img {
+      width: 85%;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      transition: all 0.1s;
+    }
+  }
+}
+/* Fin estilo galeria */
+@media (min-width: 992px) {
+  .galeria-contenedor img:hover {
+    transform: scale(1.04);
+  }
+}

@@ -1,0 +1,51 @@
+/* Inicio estilo tienda */
+.tienda {
+  height: 40vh;
+  &-titulo {
+    h1 {
+      font-family: "Poppins";
+      font-size: 38px;
+    }
+  }
+  &-subtitulo {
+    p {
+      color: #c0aa83;
+      font-family: "Inter";
+      font-size: 25px;
+    }
+  }
+  &-secciones {
+    display: flex;
+    text-align: center;
+    img {
+      display: flex;
+      margin: 0 auto;
+    }
+    h2 {
+      font-family: "Poppins";
+      color: #5a6473;
+      font-size: 25px;
+    }
+    p {
+      color: #5a6473;
+      font-family: "Montserrat";
+      font-size: 16px;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .tienda-subtitulo {
+    padding-left: 30px;
+    padding-right: 30px;
+    &-secciones {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+}
+@media (min-width: 992px) {
+  .tienda-contenedor {
+    height: 90vh;
+  }
+}
+/* Fin estilo tienda */
