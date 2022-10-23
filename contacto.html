@@ -28,7 +28,7 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand nav-img ps-5" href="./index.html">
+                    <a class="navbar-brand nav-img ps-2 ps-lg-5" href="./index.html">
                         <img src="./img/logoblanco.png" alt="logo" />
                     </a>
                     <button class="navbar-toggler me-3 bg-light bg-opacity-50" type="button" data-bs-toggle="collapse"
@@ -37,7 +37,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-4">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-4 me-lg-1">
                             <li class="nav-item me-2">
                                 <a class="nav-link m-1" aria-current="page" href="./index.html">Inicio</a>
                             </li>
@@ -68,39 +68,52 @@
             </div>
     </section>
     <div class="contacto-contenedor bg-secondary bg-opacity-25">
-        <div class="container-fluid h-100">
-            <div class="row pt-5 pb-5">
-                <div class="col-12 col-lg-7 mb-3">
-                    <p class="ms-lg-5 ps-lg-2 pe-lg-5">
-                        Queremos conocer tu opinión, tu experiencia, puntos a favor y
-                        puntos a mejorar.
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="row pt-5 pb-3 justify-content-lg-between">
+                <div class="col-12 col-lg-6 mb-3 d-flex justify-content-center flex-column">
+                    <p class="mb-5">
+                        <b>Queremos conocer tu opinión, tu experiencia, puntos a favor y
+                            puntos a mejorar.</b>
                     </p>
-                    <p class="ms-lg-5 ps-lg-2 pe-lg-5">
-                        Esto nos ayuda a seguir creciendo y brindar un mejor servicio.
+                    <p>
+                        <b>Esto nos ayuda a seguir creciendo y brindar un mejor servicio.</b>
                     </p>
                 </div>
-                <div class="col-12 col-lg-5">
-                    <form>
-                        <div>
-                            <label for="nombre">Nombre y Apellido</label>
-                            <br>
-                            <input class="w-75 w-lg-50 mb-4" type="text" name="nombre" placeholder="Nombre completo" />
-                        </div>
-                        <div>
-                            <label for="email">Email</label>
-                            <br>
-                            <input class="w-75 w-lg-50 mb-4" type="email" name="email" placeholder="Email" />
-                        </div>
-                        <div>
-                            <label for="mensaje">Mensaje</label>
-                            <br>
-                            <textarea class="w-75 w-lg-50 mb-4" name="mensaje" id="" cols="30" rows="5"
-                                placeholder="Dejanos tu mensaje" alt="boton-enviar"></textarea>
-                        </div>
-                        <input class="btn btn-default text-white boton mb-3" type="submit" value="Enviar">
-                    </form>
+                <div class="col-12 col-lg-5 d-none d-sm-none d-md-none d-lg-block">
+                    <img src="./img/galeria4.jpg" alt="vereda-del-local" class="img-fluid"
+                        style="border-bottom-right-radius: 30px; border-start-start-radius: 30px;">
                 </div>
             </div>
+        </div>
+        <div class="container-fluid pb-2">
+            <form>
+                <div class="row pt-3 pb-3 text-center d-flex justify-content-center">
+                    <div class="col-10">
+                        <label for="inputName4" class="form-label mb-0" style="font-family: Montserrat;">Nombre y
+                            Apellido</label>
+                    </div>
+                    <div class="col-10 col-md-6 mb-3">
+                        <input type="text" class="form-control d-flex justify-content-center" aria-label="First name"
+                            style="border: none; border-radius: 5px;">
+                    </div>
+                    <div class="col-10">
+                        <label for="inputEmail4" class="form-label mb-0" style="font-family: Montserrat;">Correo</label>
+                    </div>
+                    <div class="col-10 col-md-7 mb-3">
+                        <input type="text" class="form-control" aria-label="Email"
+                            style="border: none; border-radius: 5px;">
+                    </div>
+                    <div class="col-10">
+                        <label for="inputEmail4" class="form-label mb-0"
+                            style="font-family: Montserrat;">Mensaje</label>
+                    </div>
+                    <div class="col-10 col-md-8">
+                        <textarea class="form-control w-100 mb-3" type="text" name="Mensaje" cols="30" rows="3"
+                            style="border: none; border-radius: 5px;" aria-label="Email"></textarea>
+                        <input class="btn btn-default text-white boton mb-3" type="submit" value="Enviar">
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
     </main>
@@ -114,11 +127,12 @@
                         <img src="./img/telefono.png" alt="telefono" style="width: 25px; margin-bottom: 2px;">
                         (+549)11-49616077
                     </p>
-                    <p>
+                    <p class="mb-2">
                         <img src="./img/email.png" alt="correo"
                             style="width: 24px; margin-bottom: 2px; margin-right: 2px;">
                         info@thecoffeestore.com
                     </p>
+                    <p style="font-size: 21px;"><b>Lavalle 30,</b> Rafaela</p>
                 </div>
                 <div
                     class="col-12 col-lg-4 d-flex justify-content-lg-center align-items-center order-2 order-lg-1 footer-med">

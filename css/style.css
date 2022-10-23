@@ -8487,7 +8487,7 @@ section {
   .footer-der h2, .footer-der .h2 {
     font-family: "Poppins";
     font-size: 22px;
-    margin-top: 0.8rem;
+    margin-top: 0;
     margin-bottom: 0.3rem; }
   .footer-der .logoig {
     margin-right: 10px; }
@@ -8495,7 +8495,9 @@ section {
 /* Fin estilo footer */
 @media (min-width: 992px) {
   .footer-der .logoig {
-    margin-right: 13px; } }
+    margin-right: 13px; }
+  .footer-der h2, .footer-der .h2 {
+    margin-top: 0.8rem; } }
 
 /* Inicio estilo nosotros */
 .nosotros {
